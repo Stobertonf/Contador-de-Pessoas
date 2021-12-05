@@ -1,16 +1,17 @@
 # contador_de_pessoas
 
-A new Flutter application.
+Projeto do curso do professor Daniel Ciolfi na plataforma Udemy.
+
+Curso: https://www.udemy.com/user/daniel-henrique-ciolfi/
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Aplicativo de Contador de pessoas para uma sorveteria. Nesse tempo de pandemia este tipo de app é bastante útil
+para os estabelecimentos, pois os mesmos precisam controlar a quantidade de pessoas que estão dentro do estabelecimento.
 
-A few resources to get you started if this is your first Flutter project:
+Como cada estabelecimentos possui uma quantidade de pessoas (10, 20 ou mais) temos um funcionário que faz o controle de quantas
+pessoas entravam e saem para manter um controle e evitar aglomeração.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Nesta Branch, temos a v1 do App e em breve, espero criar uma nova branch e atualizar para a V2.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+O projeto foi desenvolvido por volta de 07/2020.
