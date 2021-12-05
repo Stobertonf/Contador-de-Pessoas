@@ -4,8 +4,6 @@ Projeto do curso do professor Daniel Ciolfi na plataforma Udemy.
 
 Curso: https://www.udemy.com/user/daniel-henrique-ciolfi/
 
-## Getting Started
-
 Aplicativo de Contador de pessoas para uma sorveteria. Nesse tempo de pandemia este tipo de app é bastante útil
 para os estabelecimentos, pois os mesmos precisam controlar a quantidade de pessoas que estão dentro do estabelecimento.
 
