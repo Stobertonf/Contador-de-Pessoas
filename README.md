@@ -8,7 +8,7 @@ Aplicativo de Contador de pessoas para uma sorveteria. Nesse tempo de pandemia e
 para os estabelecimentos, pois os mesmos precisam controlar a quantidade de pessoas que estão dentro do estabelecimento.
 
 Como cada estabelecimentos possui uma quantidade de pessoas (10, 20 ou mais) temos um funcionário que faz o controle de quantas
-pessoas entravam e saem para manter um controle e evitar aglomeração.
+pessoas entravam e saiam para manter um controle e evitar aglomeração.
 
 Nesta Branch, temos a v1 do App e em breve, espero criar uma nova branch e atualizar para a V2.
 
