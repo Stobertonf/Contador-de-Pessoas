@@ -31,4 +31,3 @@ Como cada estabelecimento possui uma quantidade de pessoas (10, 20 ou mais) temo
 :camera: Neste momento, eu não possuo imagens, no entanto, em breve irei disponibilizar.
 
 O projeto foi desenvolvido por volta de 07/2020.
-A branch v1 foi finalizada no dia 01/09/2022.
