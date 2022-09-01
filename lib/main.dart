@@ -41,6 +41,9 @@ class MyApp extends StatelessWidget {
       
     }
 
+    bool get isEmpety => 0 as count == 0;
+    bool get isFull => 0 as count == 20;
+
     return Scaffold(
     backgroundColor: Colors.red,
      body:  Container(
@@ -51,9 +54,9 @@ class MyApp extends StatelessWidget {
        child: Column(
          mainAxisAlignment: MainAxisAlignment.center,
          children: <Widget>[
-           Text(
-              "Pode Entrar",
-              style: TextStyle(
+           Text(       
+              IsFull ? 'Lotado' : 'Pode Entrar',
+              style: const TextStyle(
                 fontSize:30,
                 color: Colors.white,
                 fontWeight: FontWeight.w800,
@@ -63,25 +66,24 @@ class MyApp extends StatelessWidget {
             padding: EdgeInsets.all(40),
            Text(
               count.toString(), //Transformando uma variável inteira para string
-              style: const TextStyle(
+              style:  TextStyle(
                 fontSize:100,
-                color: Colors.white,     
+                color: isFull?  Colors.red : Colors.white, //Veroficando Se está Lotado. Se sim, muda o texto para vermelho.  
               ),
             ),
            ), 
            Row(
              mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-     
+            children: <Widget>[    
             TextButton(
-                 onPressd: decrement,
+                 onPressed: isEmpety? null : decrement,
                  style: TextButton.styleFrom(
                   primary: Colors.black,
-                  backgroundColor:Colors.white,
+                  backgroundColor: isEmpety? Colors.white.withOpacity(0.2) : Colors.white,
                   fixeSized: const Sized(100,100),
                   shape: RoundedRectangleBorder(
                     borderRadius:BorderRadius.circular(16),
-                  ),               
+                  ),
                  ), 
                  child:Text(
                   "Saiu",
@@ -90,7 +92,7 @@ class MyApp extends StatelessWidget {
                    color: Colors.black,
                    style: TextButton.styleFrom(
                     primary: Colors.black,
-                    backgroundColor:Colors.white,
+                    backgroundColor:isFull ? Colors.white.withOpacity(0.2) : Colors.white,
                     fixeSized: const Sized(100,100),
                     shape: RoundedRectangleBorder(
                     borderRadius:BorderRadius.circular(16),
@@ -102,7 +104,7 @@ class MyApp extends StatelessWidget {
                 width: 32,
               ),
             const TextButton(
-                 onPressd: decrement, 
+              onPressd: isFull? null : increment,    
                  child:Text(
                   "Entrar",
                  style:TextStyle(
