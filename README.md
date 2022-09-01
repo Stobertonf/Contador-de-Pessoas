@@ -29,4 +29,3 @@ Como cada estabelecimentos possui uma quantidade de pessoas (10, 20 ou mais) tem
 ## Imagens
 
 :camera: Neste momento, eu não possuo imagens, no entanto, em breve irei disponibilizar.
-## Seja bem vindo
