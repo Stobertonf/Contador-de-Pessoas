@@ -16,7 +16,7 @@ Curso: https://www.udemy.com/user/daniel-henrique-ciolfi/
 
 Nesse tempo de pandemia este tipo de app é bastante útil para os estabelecimentos, pois os mesmos precisam controlar a quantidade de pessoas que estão dentro do estabelecimento.
 
-Como cada estabelecimentos possui uma quantidade de pessoas (10, 20 ou mais) temos um funcionário que faz o controle de quantas pessoas entravam e saiam para manter um controle e evitar aglomeração..
+Como cada estabelecimento possui uma quantidade de pessoas (10, 20 ou mais) temos um funcionário que faz o controle de quantas pessoas entravam e saiam para manter um controle e evitar aglomeração.
 
 ## Foco
 
