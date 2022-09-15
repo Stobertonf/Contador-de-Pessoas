@@ -24,7 +24,7 @@ Como cada estabelecimento possui uma quantidade de pessoas (10, 20 ou mais) temo
 
 ## Prazo
 
-⚡ O projeto inicial foi desenvolvido por volta de 07/2020. No entanto, v2 foi finalizada no dia 01/09/2022.
+⚡ O projeto inicial foi desenvolvido por volta de 07/2020. No entanto, a v2 foi finalizada no dia 01/09/2022.
 
 ## Imagens
 
